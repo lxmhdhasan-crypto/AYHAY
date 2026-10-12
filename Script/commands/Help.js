@@ -156,8 +156,8 @@ async function sendCommandInfo(api, event, commandName) {
   const cfg = cmd.config || {};
 
   // Owner / Bot name config থেকে নেওয়ার চেষ্টা
-  let botName = "⎯꯭𓆩꯭𝆺𝅥😻⃞𝐑⃞𝐈⃞𝐘⃞𝐀⃞༢࿐";
-  let ownerName = "乛 M𝆠፝֟R ཐི༏ཋྀ JU𝆠፝֟W𝆠፝֟ELꜛཐི༏ཋྀ࿐";
+  let botName = "⎯꯭𓆩꯭𝆺𝅥😻⃞𝐀𝐑𝐈𝐘𝐀𝐍 𝐂𝐇𝐀𝐓 𝐁𝐎𝐓࿐";
+  let ownerName = "乛 𝐀𝐑𝐈𝐘𝐀𝐍-𝐒𝐀𝐁𝐁𝐈𝐑";
   try {
     const configPath = __dirname + "/../../config.json";
     if (fs.existsSync(configPath)) {
